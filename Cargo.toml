@@ -8,7 +8,13 @@ edition = "2021"
 [dependencies]
 image = "0.24.4"
 colored = "2"
+const_format = "0.2.30"
+tui = "0.19.0"
+crossterm = "0.25"
 
 [dependencies.nokhwa]
 version = "0.9.4"
 features = ["input-msmf"]
+
+[dev-dependencies]
+rstest = "0.15.0"
